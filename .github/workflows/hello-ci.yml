@@ -14,7 +14,7 @@ jobs:
        uses: actions/Checkout@v4
 
      - name: Say hello (will fail)
-       run: exit 1 #echo "CI está funcionando ✅"
+       run: echo "CI está funcionando ✅"
 
      - name: Show runner info
        run: |
